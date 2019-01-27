@@ -1,0 +1,32 @@
+{
+    "canonicalUrl": "nem2pay.evias.be",
+    "payments": {
+        "currency": "evias.nem2pay:currency",
+        "invoicePrefix": "NEM2PAY-",
+        "secretKey": "NEM2PayByGrégorySaive_NotSoSecretKey",
+        "walletSalt": "NEM2PayByGrégorySaive_NotSoSecretKey#.29.08.1988+30.07.1997#!",
+        "bots": {
+            "paymentBot": "ws://localhost:29081"
+        }
+    },
+    "nem": {
+        "isMijin": false,
+        "nodes": [
+            { "host": "http://alice6.nem.ninja", "port": 7890 },
+            { "host": "http://alice7.nem.ninja", "port": 7890 },
+            { "host": "http://san.nem.ninja", "port": 7890 },
+            { "host": "http://62.75.171.41", "port": 7890 },
+            { "host": "http://185.53.131.101", "port": 7890 },
+            { "host": "http://104.251.212.131", "port": 7890 },
+            { "host": "http://202.5.19.142", "port": 7890 },
+            { "host": "http://167.114.182.195", "port": 7890 },
+            { "host": "http://139.196.203.180", "port": 7890 },
+            { "host": "http://hugealice.nem.ninja", "port": 7890 },
+            { "host": "http://209.126.98.204", "port": 7890 },
+            { "host": "http://133.130.103.44", "port": 7890 },
+            { "host": "http://45.32.42.134", "port": 7890 },
+            { "host": "http://185.141.165.153", "port": 7890 },
+            { "host": "http://123.56.253.121", "port": 7890 }
+        ]
+    }
+}
